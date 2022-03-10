@@ -105,7 +105,7 @@
                 Fosgail a’ cheist
             </button>
             <button type="button" id="extraInfo" class="btn btn-light hide m-2" data-toggle="modal" data-target="#info" data-keyboard="false" data-backdrop="static">
-                Extra info
+                Barrachd fiosrachaidh
             </button>
             <button type="button" id="moveToNextAnsBtn" onclick="paths[actualState.pathId].moveToNextAns();" class="btn btn-warning hide m-2">
                 Dhan ath cheist

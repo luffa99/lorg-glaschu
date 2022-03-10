@@ -228,8 +228,13 @@ class Path {
         })
         openQuestion("Aon rud eile…",'<div class="form-group">\
                                         <label>Ainm a’ chluicheadair? Ainm-cleachdaidh?</label>\
-                                        <input type="text" id="player_name" maxlength="16" required>\
-                                        </div> <button type="submit" class="btn btn-primary" onclick="$(\'#qwin\').modal(\'hide\')">Sàbhail</button>');        
+                                        <input type="text" id="player_name" maxlength="16" class="d-block mb-3" required>\
+                                        <input type="hidden" id="evaluation">\
+                                        <label class="d-block">Ciamar a\' chòrd an geama riut?</label>\
+                                        <span style="font-size:30px" id="ev0" class="p-2" onclick="evaluateGame(this);">😍</span>\
+                                        <span style="font-size:30px" id="ev1" class="p-2" onclick="evaluateGame(this);">😀</span>\
+                                        <span style="font-size:30px" id="ev2" class="p-2" onclick="evaluateGame(this);">😕</span>\
+                                        </div> <button id="nameBtn" type="submit" class="btn btn-primary mt-3" onclick="saveStats()" disabled>Sàbhail</button>');        
     }
 
     notifyFullScreen() {
@@ -338,7 +343,7 @@ class PathClassic extends Path {
             $('#inst').hide();
             $('#hint').hide();
             if (paths[actualState.pathId].questions[actualState.question].extrainfo != 0){
-                $('#infoTitle').text("Extra info");
+                $('#infoTitle').text("Barrachd fiosrachaidh");
                 $('#infoBody').html(paths[actualState.pathId].questions[actualState.question].extrainfo);
                 $('#extraInfo').show();
             }

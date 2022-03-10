@@ -1,12 +1,12 @@
 <?php
 if (isset($_GET["p"])) {
     $page = (int) $_GET["p"];
-    if ($page > 4 || $page < 0) $page = 0;
+    if ($page > 5 || $page < 0) $page = 0;
 } else {
     $page = 0;
 }
 
-$page_mapping = array("index_failte.inc.php","index_cluich.inc.php","index_goireasan.inc.php","index_fios.inc.php","index_mu.inc.php");
+$page_mapping = array("index_failte.inc.php","index_cluich.inc.php","index_goireasan.inc.php","index_fios.inc.php","index_mu.inc.php","index_laghail.inc.php");
 ?>
 <!doctype html>
 

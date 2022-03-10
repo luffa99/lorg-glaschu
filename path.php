@@ -218,7 +218,7 @@
                 } else if (level <= 0.2) {
                     $('#batteryinfo').removeClass("alert-info").addClass("alert-danger");
                 }
-                document.getElementById('battery').innerHTML = level*100;
+                document.getElementById('battery').innerHTML = Math.round(level*100);
             });
         }
     </script>

@@ -21,3 +21,7 @@
     Tha mi toilichte pàirt a ghabhail anns a’ phròiseact seo agus tha mi ’n dòchas gun obraich a h-uile càil 
     gu sgiobalta! 
 </p>
+<p>
+    <h4>Fiosrachadh Laghail</h4>
+    <a href="?p=5" class="underline">Fiosrachadh Laghail</a>
+</p>

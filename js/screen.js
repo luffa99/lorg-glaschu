@@ -171,3 +171,37 @@ function newgame() {
       
     window.location.href = "";
 }
+
+function evaluateGame(obj) {
+    $('#ev0').css("background-color", "");
+    $('#ev1').css("background-color", "");
+    $('#ev2').css("background-color", "");
+    $(obj).css("background-color", "#007bff");
+    let value = 0;
+    if (obj.id == "ev0") {
+        value = 1;
+    }
+    if (obj.id == "ev2") {
+        value = -1;
+    }
+    $("#evaluation").val(value);
+    $("#nameBtn").prop('disabled', false);
+
+}
+
+function saveStats(){
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", 'stat.php', true);
+    
+    //Send the proper header information along with the request
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    
+    xhr.onreadystatechange = function() { // Call a function when the state changes.
+        if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+            // Request finished. Do processing here.
+            console.log(this.responseText);
+        }
+    }
+    xhr.send("data="+JSON.stringify(actualState)+"&valuation="+$("#evaluation").val());
+    $('#qwin').modal('hide');
+}

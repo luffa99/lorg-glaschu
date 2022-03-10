@@ -18,15 +18,8 @@ Cuiribh fios thugam ma tha ceist agaibh no ma tha rud sam bith as urrainn dhomh 
     <li><a class="underline" href="https://canmore.org.uk/" target="_blank">canmore.org.uk</a></li>
 </ul>
 
-<h5>Reifreansan Ceilbhinn</h5>
+<h5>Reifreansan</h5>
 <ul>
-    <li><a class="underline" href="https://canmore.org.uk/site/44016/glasgow-125-garriochmill-road-north-woodside-flint-mill" target="_blank">canmore.org.uk/site/44016/glasgow-125-garriochmill-road-north-woodside-flint-mill</a></li>
-    <li><a class="underline" href="https://canmore.org.uk/site/211423/glasgow-125-garriochmill-road-north-woodside-flint-mill-sluice" target="_blank">canmore.org.uk/site/211423/glasgow-125-garriochmill-road-north-woodside-flint-mill-sluice</a></li>
-    <li><a class="underline" href="https://canmore.org.uk/site/277648/glasgow-125-garriochmill-road-north-woodside-flint-mill-lade" target="_blank">canmore.org.uk/site/277648/glasgow-125-garriochmill-road-north-woodside-flint-mill-lade</a></li>
-    <li><a class="underline" href="https://canmore.org.uk/site/165281/glasgow-garrioch-mill" target="_blank">https://canmore.org.uk/site/165281/glasgow-garrioch-mill</a></li>
-    <li><a class="underline" href="https://canmore.org.uk/site/121413/glasgow-703-great-western-road-botanic-gardens-footbridge " target="_blank">canmore.org.uk/site/121413/glasgow-703-great-western-road-botanic-gardens-footbridge </a></li>
-    <li><a class="underline" href="https://canmore.org.uk/site/172685/glasgow-kelvinside-terrace-west-steps-and-retaining-wall" target="_blank">canmore.org.uk/site/172685/glasgow-kelvinside-terrace-west-steps-and-retaining-wall</a></li>
-    <li><a class="underline" href="https://canmore.org.uk/site/164370/glasgow-pear-tree-well " target="_blank">canmore.org.uk/site/164370/glasgow-pear-tree-well </a></li>
-    <li><a class="underline" href="https://canmore.org.uk/site/211436/glasgow-addison-road-footbridge" target="_blank">canmore.org.uk/site/211436/glasgow-addison-road-footbridge</a></li>
+    <li>Faic <a class="underline" href="https://docs.google.com/document/d/1-4tLqhjOQ4X4PkT2WcmNbGl7fuY0o_8-l5RaswOJehY/edit?usp=sharing" target="_blank">an GoogleDoc seo</a></li>
 </ul>
 </p>

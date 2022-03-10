@@ -4,21 +4,19 @@
     <div class="card-img-overlay d-flex flex-column p-2">
         <!--h2 class="card-title text-white">City center</h2>
         <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content.</p-->
-        <p class="card-text text-white mt-auto"><img src="media/clock.png" style="height:23px;width:23px;padding:2px;">1.5 hours</p>
+        <p class="card-text text-white mt-auto"><img src="media/clock.png" style="height:23px;width:23px;padding:2px;"> 2 Uair</p>
     </div>
 </div>
 </a>
 
-<a href="path.php?path=1">
+<!--a href="path.php?path=1">
 <div class="card bg-dark text-dark mt-3">
     <img class="card-img lazyload" src="media/covers/1.webp" alt="Card image">
     <div class="card-img-overlay d-flex flex-column p-2">
-        <!--h2 class="card-title text-white">Downtown</h2>
-        <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content.</p-->
-        <p class="card-text text-white mt-auto"><img src="media/clock.png" style="height:23px;width:23px;padding:2px;">1.5 hours</p>
+        <p class="card-text text-white mt-auto"><img src="media/clock.png" style="height:23px;width:23px;padding:2px;">1 Uair</p>
     </div>
 </div>
-</a>
+</a-->
 
 <!-- <a href="path.php?path=3">
 <div class="card bg-dark text-dark mt-3">

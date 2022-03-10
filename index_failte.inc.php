@@ -8,10 +8,10 @@
     Bidh gach slighe no sealg “scavenger” stèidhichte air cuspair no sgìre ann an Glaschu.
 </p>
 <p>
-    <u>Slighean-Ionmhais</u> As dèidh dhuibh slighe a thaghadh, thèid sibh gu ceann-thòisich na slighe. Buailibh “Tòisich geama ùr” agus bidh beagan fiosrachaidh agus a’ chiad cheist a’ nochdadh. As dèidh dhuibh freagairt, bidh fiosrachadh no ceist eile ann gus an ath àite-stad a lorg. Bidh feum agaibh air cead GPS a thoirt dhuinn. 
+    <u>Slighean-Ionmhais</u> As dèidh dhuibh slighe a thaghadh, thèid sibh gu ceann-thòisich na slighe. Buailibh “Tòisich geama ùr” agus bidh beagan fiosrachaidh agus a’ chiad cheist a’ nochdadh. As dèidh dhuibh freagairt, bidh fiosrachadh no ceist eile ann gus an ath àite-stad a lorg. Bidh feum agaibh air cead GPS a thoirt dhuinn / dhan bhrowser agaibh.
 </p>
 <p>
-    <u>“Sealg Scavenger”</u> Seach air slighe stèidhichte, bidh cruinneachadh de rudan (togalaichean, nithean, … ) agaibh ri lorg, le beagan cuideachaidh bho dealbhan, tòimhseachain agus an leithid. Nuair a bhios sibh faisg air na co-chomharran ceart, bidh barrachd fiosrachaidh a’ nochdadh gus sealltainn dè tha sibh air lorg. 
+    <u>“Sealg Scavenger”</u> Seach air slighe stèidhichte, bidh cruinneachadh de rudan (togalaichean, nithean, … ) agaibh ri lorg, le beagan cuideachaidh bho dealbhan, tòimhseachain agus an leithid. Nuair a bhios sibh faisg air na co-chomharran ceart, bidh barrachd fiosrachaidh a’ nochdadh gus sealltainn dè tha sibh air lorg. Bidh feum agaibh air cead GPS a thoirt dhuinn / dhan bhrowser agaibh.
 </p>
 <h4 class="font-italic mb-3">
     Tha mi ‘n dòchas gun còrd an geama ribh!

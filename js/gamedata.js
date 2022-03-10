@@ -40,9 +40,13 @@ const p1q1 = new MultipleChoice(
     new Array("1768","1790","1970"),
     1,
     false,
-    "IMMAGINE DEL PESCE in background e in ath-cheum\
+    "<div style='background-image: url(\"media/pesce.png\"); background-repeat: no-repeat; background-position: center'><ul class='p-2'>\
+    <li>Dealbh-cluiche air a dhèanamh mar phàirt de Fèisean nan Gaidheal, ag innse sgeulachd mu nighean à Guidheàna a chaidh a thoirt às an dùthaich aice fhèin le a h-athair, aig an robh planntachasan, a chaidh a’ fuireachd air an Eilean Dubh ann an 1816.\
+    <p><a href='https://vimeo.com/466829060/9f747e6da4?embedded=true&source=video_title&owner=8699768' class='underline' target='_blank'>https://vimeo.com/46682906...</a></p></li>\
     \
-    BARRACHD FIOSRACHAIDH"
+    <li>Barrachd goireasan air:<p><a href='https://www.feisean.org/proiseactan/meanbh-chuileag-theatar-oideachaidh/  ' class='underline' target='_blank'>https://www.feisean.org/proiseactan...</a></p></li>\
+    \
+    <li>(Beurla) Loidhne-tìde agus barrachd fiosrachaidh air eachdraidh a’ chanàil: <p><a href='https://www.scottishcanals.co.uk/heritage/forth-clyde-canal/' class='underline' target='_blank'>https://www.scottishcanals.co.uk/heri...</a></p></li></div>"
 );
 
 const p1q2 = new MultipleChoice(
@@ -52,7 +56,7 @@ const p1q2 = new MultipleChoice(
     "<p>An latha an-diugh, fad s’ a bhios thu a’ coiseachd, chì thu togalaichean àrda le cafaidhean, flataichean agus oifisean spaideil air taoibh eile a’ canàil. Ach b’ e, stòrasan-sìl, muilleanan-gràine, fìneadair-siùcair, agus togalach wheatsheaf a bh’ annta aig àm nuair a bha an canàl ga chleachdadh mar shlighe-mhalairt.</p>\
     <p>Tha thu air drochaid a ruigsinn a-nis. Ann an 1941, aig àm an dàrna cogaidh, thòisich na ruathair-adhar. B’ e Glaschu fear de na bàiltean na bu chudromaiche air sgàth a ghnìomhachais. Uime sin, bha e na thargaid bòmaidh. Chaidh locan-casgaidh a thogail air a chanàl, air eagal ‘s gun deach Glaschu a thuileachadh. Tha iad nam pàirt den dhrochaid a-nis, sin na tha thu a’ faicinn san uisge!</p>",
     "Coisich tarsainn air na drochaide. Bidh faiceallach! Tha sreath dhe chlachan ann. An urrainn dhut an cunntadh?",
-    "<p>Glè mhath! Rach air ais agus lean oirt air a’ phrìomh slighe. Feuch gun lorg thu mapa. Tha sin a’ dol a shiubhal tro eachdraidh, agus chan eil sinn airson a bhi air chall!</p><img src='https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/64/22293-fish-icon.png' />",
+    "<p>Glè mhath! Rach air ais agus lean oirt air a’ phrìomh slighe. Feuch gun lorg thu mapa. Tha sin a’ dol a shiubhal tro eachdraidh, agus chan eil sinn airson a bhi air chall!</p><img src='media/pesce.png' style='height:auto;width:150px;padding:2px'>",
     new Array ("4","7","10"),
     1,
     false,
@@ -74,20 +78,46 @@ const p1q3 = new MultipleChoice(
 );
 
 const p1q4 = new MultipleChoice(
-    /* Nome del luogo */            "Dealbh le fear an taigh seinnse",
+    /* Nome del luogo */            "Old Basin Tavern",
     /* Latitudine del punto */      55.876667,
     /* Longitudine del punto */     -4.260833,
     /* Info di background (HTML) */ "<p>Sin thu! Seo làrach taigh-seinnse (The Old Basin Tavern) agus taighe-ghrùdaireachd. ‘B ann ann àite goireasach a bh’ ann, gu sònraichte nuair a bha an canàl na bu thrainge le taistealaichean agus mar shlighe-malairt.</p>\
                                     <p>Tha dealbhan rim faicinn an seo:\
-                                        <a href='https://canmore.org.uk/site/217782/glasgow-bairds-brae-houses?display=collection&GROUPCATEGORY=5' target='_blank'>open link</a>\
+                                        <a href='https://canmore.org.uk/site/217782/glasgow-bairds-brae-houses?display=collection&GROUPCATEGORY=5' class='underline' target='_blank'>open link</a>\
                                     </p>",
     /* La domanda */                "Tha blocaichean cloiche air do chulaibh…feuch gun lorg thu an cruth seo? [immagine]",
     /* Inidizio prossimo punto */   "Sgoinneil! Rach tarsainn air an drochaid taobh eile an cànal. Tha na togalaichean geala an seo am measg nan togalaichean nas sìne a th’ann faisg air làimh.",
     /* Risposte */                  new Array("a","b","c"),
     /* Risposta corretta */         0,
+    /* Se è la domanda finale */    false,
+    /* Informazioni extra (HTML) */ 0
+);
+
+const p1q5 = new MultipleChoice (
+    /* Nome del luogo */            "Applecross wharf",
+    /* Latitudine del punto */      55.876944, 
+    /* Longitudine del punto */     -4.260278,
+    /* Info di background (HTML) */ "<p>Sgoinneil fhèin! Tha thu an-nis a’ coimhead air sreath de bhuth-obhraichean, gealaichte le aol, agus air  seann taigh-drochaidiche. Chaidh an taigh a thogail mu timcheall air 1790. Nas fhaide air adhairt, bha einnseinair Hugh Baird a’ fuireach an seo, mas fhìor, fad ‘s a bha e a’ deilbheadh Canàl an Aonaidh.</p><p><a href='https://canmore.org.uk/site/217779/glasgow-forth-and-clyde-canal-5-7-applecross-street-rockvilla-house?display=collection&GROUPCATEGORY=5' class='underline' target='_blank'>Dealbhan</a></p><p>aol: lime</p>",
+    /* La domanda */                "Dè an seòrsa stuth a bhiodh daoine a’ cleachdadh gus na canàlan a chumail slàn agus uisge-dhìonach?",
+    /* Inidizio prossimo punto */   "Math dhà-riribh! Tha àite sònraichte ann far am faighear crè airson an obair seo… chan eil e ro fhada air falbh! Cùm ort a’ coiseachd ri taobh a’ chanàil, tha thu air an t-slighe ceart...",
+    /* Risposte */                  new Array("fiodh","crè","iarann"),
+    /* Risposta corretta */         1,
+    /* Se è la domanda finale */    false,
+    /* Informazioni extra (HTML) */ 0
+);
+
+const p1q6 = new MultipleChoice (
+    /* Nome del luogo */            "Claypits",
+    /* Latitudine del punto */      55.878889, 
+    /* Longitudine del punto */     -4.266944,
+    /* Info di background (HTML) */ "<p>Sin thu fhèin! Seo far an robh poll-criadha a bha cho cudromach airson an canàl a chumail uisge-dhìonach. An-diugh, ’s e tèarmann-nàdair a th’ ann. Àite uabhasach fhèin math airson beagan fois a ghabhail as dèidh dhut coiseachd air an slighe-ionmhais seo còmhla rium.</p><img src='media/pesce.png' style='height:auto;width:150px;padding:2px'>",
+    /* La domanda */                "How was the game?",
+    /* Inidizio prossimo punto */   "",
+    /* Risposte */                  new Array("😍","😑"),
+    /* Risposta corretta */         0,
     /* Se è la domanda finale */    true,
     /* Informazioni extra (HTML) */ 0
-)
+);
 
 const p1 = new PathClassic (
     /*Path name */      "Canàlan na h-Alba",
@@ -96,8 +126,13 @@ const p1 = new PathClassic (
     /*Startplace */     "Plaig Speirs Wharf/Port Dundas",
     /*Start_lat*/       55.871389,
     /*Start_lon*/       -4.258056,
-    /*Intro (HTML)*/    "<p>Intro goes here</p><p><a class='underline' href='https://www.google.com/maps/dir//55.871389,-4.258056/@55.871389,-4.258056,17z/data=!4m10!1m7!3m6!1s0x0:0x3219e59605b74cf8!2zNTXCsDUyJzE3LjAiTiA0wrAxNScyOS4wIlc!3b1!8m2!3d55.871389!4d-4.258056!4m1!3e1' target='_blank'>Rach gu toiseach na slighe</a></p>",
-    /*Questions*/       new Array(p1q1,p1q2,p1q3,p1q4)
+    /*Intro (HTML)*/    "<p>Gabh cuairt còmhla rinn ri taobh a’ chànail. Bidh sinn ag ionnsachadh barrachd mu dheidhinn eachdraidh na slighe-mhalairt cudromach seo eadar Abhainn Chluaidh agus Linne Foirthe, mun iomadh diofar gnìomhachas a bha co-cheangailte ris, agus mu bheatha dhaoine a bhiodh ag obair ann. Glèidh do shùil fosgailte, tha tòrr àrc-eòlais ann ri fhaicinn!</p>\
+    <div class='card bg-info my-2'><div class='card-body'>\
+    <div class='row'><div class='col-4 p-0 m-0'><img src='media/pesce.png' style='height:auto;width:150px;padding:2px'></div><div class='col-8'>\
+    “Halò! ’S mise an t-iasg nach do rinn snàmh. ‘S dòcha gun aithnich thu mi, tha mi a’ fuireach air suaicheantas Baile Ghlaschu! An-diugh, ge-tà, tha mi air an t-suaicheantas fàgail gus bi cothrom agam a bhith nam threòraiche dhut. Bidh mi a’ snàmh ri do thaobh agus bidh mi gad chuideachadh le beagan stiùiridh.\
+    </div></div></div></div>\
+    <p><a class='underline' href='https://www.google.com/maps/dir//55.871389,-4.258056/@55.871389,-4.258056,17z/data=!4m10!1m7!3m6!1s0x0:0x3219e59605b74cf8!2zNTXCsDUyJzE3LjAiTiA0wrAxNScyOS4wIlc!3b1!8m2!3d55.871389!4d-4.258056!4m1!3e1' target='_blank'>Rach gu toiseach na slighe</a></p>",
+    /*Questions*/       new Array(p1q1,p1q2,p1q3,p1q4,p1q5,p1q6)
 );
 
 /* Pictures are questions for scavenger game 
@@ -123,10 +158,11 @@ const p2q1 = new Picture (
     /*lat of point*/                                55.882222,  
     /*lon of point */                               -4.291944,
     /*Information about point (HTML) */             "<p>A rèir nam mapaichean , bha fuaran no tobar ann an seo, air an robh “Three trees well”. Tha an tobair a’ nochdad mar “Three Trees Well” no “Pear-tree Well” ann an aithrisean bhon 19mh linn agus tràth san 20mh linn. Bha deasbad ann aig an àm am measg nan eòlaichean mu dè an t-ainm ceart a bh’ air, a rèir coltas! <br />Bha cuid den beachd gun robh comas leigheasach aig an uisge. Ged a tha na cunntasan bhon àm sin caran romansach, agus iad a’ cur cuideam air boidheach an àite agus air coiseachd tlachdmhor air bruachan Ceilbhinn, tha e gu math furasta a bhith a’ beachdachadh air cò ris a bha an t-àite seo coltach aig an àm, fiu ‘s an latha an-diugh.</p>\
+    <p><a href='https://archive.org/details/bygoneglasgowske00smal/page/n161/mode/2up?view=theater' class='underline' target='_blank'>https://archive.org/details/bygoneglasgowske00smal/page/n161/mode/2up?view=theater</a></p>\
     <div class='card bg-info'><div class='card-header'>\
     <img src='media/trowel128w.png' style='height:50px;width:50px;padding:2px;vertical-align:top'></div>\
     <div class='card-body'>\
-    Tha seann mhapaichean uabhasach feumail do àrc-eòlaichean. Ged a tha cladach àrc-eòlach na phàirt chudromach den obair (agus gu deabh, ’s dòcha gur e sin am pàirt air a bhios sinn a’ smaoineachadh na bu trice nuair a chluinneas sinn am facal “àrc-eòlas”), tha dreuchdan eile ann air a bheil sinn feumach. Tha sgrùdadh air seann mhapaichean, sgìobhannan, agus aithsigean riatanach mus tòisichear air cladach.</div></div>",
+    Tha seann mhapaichean uabhasach feumail do àrc-eòlaichean. Ged a tha cladhach àrc-eòlais na phàirt chudromach den obair (agus gu deabh, ’s dòcha gur e sin am pàirt air a bhios sinn a’ smaoineachadh na bu trice nuair a chluinneas sinn am facal “àrc-eòlas”), tha dreuchdan eile ann air a bheil sinn feumach. Tha sgrùdadh air seann mhapaichean, sgìobhannan, agus aithsigean riatanach mus tòisichear air cladach.</div></div>",
     /*Hint1: formatted HTML, picture, ... */         "<h3>Tobar nan trì craobh</h3><img src='media/scavenger2/map.webp' class='img-fluid'></img>",
     /*Hint2: formatted HTML, picture, ... */         0,
     /*Hint3: formatted HTML, picture, ... */         0,
@@ -145,10 +181,10 @@ const p2q2 = new Picture (
 );
 
 const p2q3 = new Picture (
-    /*where: name of place / hint 1 (short!)*/      "Na 60 cheum", 
+    /*where: name of place / hint 1 (short!)*/      "Na 60 steap", 
     /*lat of point*/                                55.879167,
     /*lon of point */                               -4.284167,
-    /*Information about point (HTML) */             "<p>Bha an staidhre seo, air a bheil “na 60 cheum ” agus am balla air an deilbheadh le Alexander “an Greugach” Thomson. B’ e ailtire ainmeil a bh’ ann agus dh’fhuair e a fhar-ainm air sgàth an stoidhle aige. Bhiodh drochaidh a’ ceangal Great Western Road le Kelvinside, ach chan eil ach pìosan de na cidhean air fhàgail an dràsta. Bha an drochaid cudromach do leudachadh a’ bhaile air taobh seo na aibhne.</p>",
+    /*Information about point (HTML) */             "<p>Bha an staidhre seo, air a bheil “the 60 steps” agus am balla air an deilbheadh le Alexander “an Greugach” Thomson. B’ e ailtire ainmeil a bh’ ann agus dh’fhuair e a fhar-ainm air sgàth an stoidhle aige. Bhiodh drochaidh a’ ceangal Great Western Road le Kelvinside, ach chan eil ach pìosan de na cidhean air fhàgail an dràsta. Bha an drochaid cudromach do leudachadh a’ bhaile air taobh seo na aibhne.</p>",
     /*Hint1: formatted HTML, picture, ... */         "<img src='media/scavenger2/staidhre2.webp' class='img-fluid'></img>",
     /*Hint2: formatted HTML, picture, ... */         0,
     /*Hint3: formatted HTML, picture, ... */         0,
@@ -159,7 +195,7 @@ const p2q4 = new Picture (
     /*where: name of place / hint 1 (short!)*/      "Muileann clach-spor", 
     /*lat of point*/                                55.877778, 
     /*lon of point */                               -4.282222,
-    /*Information about point (HTML) */             "<p>Clachan-mhuillin. Chaidh a chiad mhuillean air a thogail an seo ann an 1765, air fearann a bhuineadh do North Kelvindale Estate. B’ e muillean-eòrna a bh’ ann agus chaidh a chleachdadh cuideachd airson fùdar-gunna a bhleith aig àm cogaidh Napoleon.</p><u>Àith / kiln</u><p>Bhiodh clach-spor agus gual a’ chur anns an àith, far am biodh e a’ losgadh fad trì làithean mus biodh e deiseil airson bleith. As dèidh sin, bhiodh i air a tionndadh gu glaodh, agus mu dheireadh-thall bhiodh an glaodh air a chleachadh airson crè a ghlainneachadh.</p>",
+    /*Information about point (HTML) */             "<p>Clachan-mhuillin. Chaidh a chiad mhuillean air a thogail an seo ann an 1765, air fearann a bhuineadh do North Kelvindale Estate. B’ e muillean-eòrna a bh’ ann agus chaidh a chleachdadh cuideachd airson fùdar-gunna a bhleith aig àm cogaidh Napoleon.</p><p>Clach-spor: Flint</p><u>Àith / kiln</u><p>Bhiodh clach-spor agus gual a’ chur anns an àith, far am biodh e a’ losgadh fad trì làithean mus biodh e deiseil airson bleith. As dèidh sin, bhiodh i air a tionndadh gu glaodh, agus mu dheireadh-thall bhiodh an glaodh air a chleachadh airson crè a ghlainneachadh.</p>",
     /*Hint1: formatted HTML, picture, ... */         "<img src='media/scavenger2/brick.webp' class='img-fluid'>",
     /*Hint2: formatted HTML, picture, ... */         "<img src='media/scavenger2/kiln.webp' class='img-fluid'>",
     /*Hint3: formatted HTML, picture, ... */         0,
@@ -182,7 +218,7 @@ const p2q6 = new Picture (
     /*where: name of place / hint 1 (short!)*/      "Tuil-dhoras", 
     /*lat of point*/                                55.878333, 
     /*lon of point */                               -4.284167,
-    /*Information about point (HTML) */             "<p>Slighe le geata leis an gabh sruthadh an uisge a stad no a stiùireadh. Bha seo na phàirt den mhuillean.</p>",
+    /*Information about point (HTML) */             "<p>Slighe le geata leis an gabh sruthadh an uisge a stad no a stiùireadh. Bha seo na phàirt den mhuillean.</p><p>Tuil-dhoras: sluice</p>",
     /*Hint1: formatted HTML, picture, ... */         0,
     /*Hint2: formatted HTML, picture, ... */         0,
     /*Hint3: formatted HTML, picture, ... */         0,
@@ -193,7 +229,7 @@ const p2q7 = new Picture (
     /*where: name of place / hint 1 (short!)*/      "Lad agus caraidh", 
     /*lat of point*/                                55.878889,
     /*lon of point */                               -4.284722,
-    /*Information about point (HTML) */             "<p>Lad a bhiodh a’ toirt uisge dhan mhuileann.</p>",
+    /*Information about point (HTML) */             "<p>Lad a bhiodh a’ toirt uisge dhan mhuileann.</p><p>Lad: lade<br />Caradh: Weir</p>",
     /*Hint1: formatted HTML, picture, ... */         0,
     /*Hint2: formatted HTML, picture, ... */         0,
     /*Hint3: formatted HTML, picture, ... */         0,
@@ -246,7 +282,7 @@ const p2 = new PathScavenger (
     <p>Ghabhaibh cuairt còmhla rinn gus faighinn a-mach mu chuid de na bhiodh a’ dol air bruachan Cheilbhinn. Bidh sibh a’ lorg an àite far an deach gach dealbh a thogail, le beagan cuideachaidh bho àm gu àm…</p>\
     <p>Ged nach eil slighe stèidhichte ann, faodaidh sibh tòiseachadh air a’ gheama aig prìomh gheata nam Botanics. Faodaidh sibh tòiseachadh air agus crìoch a chur air aig àm sam bith, gun a bhith a’ dèanamh an geama air fad san aon latha. Bidh an t-adhartas agaibh air a shabhaladh.<br />\
     Ma tha sibh deiseil is deònach, brùthaibh an seo airson cluich!</p>",
-    new Array(p2q1,p2q2,p2q3,p2q4,p2q5,p2q6,p2q7,p2q8,p2q9,p2q10)
+    new Array(p2q1,p2q2,p2q3,p2q4,p2q5,p2q6,p2q7,p2q8,/*p2q9,*/p2q10)
 );
 
 
