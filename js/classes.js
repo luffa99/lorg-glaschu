@@ -615,6 +615,14 @@ class PathScavenger extends Path {
             $(".carousel-item").css("height",carheight);
         });
 
+
+        let queryString2 = window.location.search;
+        let urlParams2 = new URLSearchParams(queryString2);
+        if (urlParams2.has('cheating')){
+            let tofind = JSON.parse(urlParams2.get('cheating'));
+            actualState.found = tofind;
+            actualState.savestate();
+        }
         // this.notifyFullScreen();
     }
 
