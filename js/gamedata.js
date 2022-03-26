@@ -173,7 +173,9 @@ const p2q2 = new Picture (
     /*where: name of place / hint 1 (short!)*/      "Taigh agus drochaid “halfpenny”", 
     /*lat of point*/                                55.881389, 
     /*lon of point */                               -4.291667 ,
-    /*Information about point (HTML) */             "<p>Tha an t-àite seo air atharrachadh gu mòr thar nan linntean. Aig an tòiseach, tha e coltach gun robh àthann ann. An uair sin chaidh drochaidean a thogail, an drochaid “ha’penny” nam measg. B’ e drochaid le teannadair laitise a bh’ ann, agus chaidh a h-ainmeachadh air a’ chìs a bhiodh uachdaran taigh Kelvinside ag iarraidh air duine sam bith a bhiodh airson dol thairis air an abhainn. Chaidh an drochaid as ùire a thogail anns na ‘90.</p>",
+    /*Information about point (HTML) */             "<p>Tha an t-àite seo air atharrachadh gu mòr thar nan linntean. Aig an tòiseach, tha e coltach gun robh àthann ann. An uair sin chaidh drochaidean a thogail, an drochaid “ha’penny” nam measg. B’ e drochaid le teannadair laitise a bh’ ann, agus chaidh a h-ainmeachadh air a’ chìs a bhiodh uachdaran taigh Kelvinside ag iarraidh air duine sam bith a bhiodh airson dol thairis air an abhainn. Chaidh an drochaid as ùire a chruthachadh anns na ‘90.</p>\
+    <div class='card bg-info'><div class='card-body'>\
+    <img src='media/pettirosso.png' class='img-fluid'><p>\"‘S beag an t-iongnadh nach robh muinntir an àite toilichte gun robh aca ri pàigheadh airson dol taobh eile na h-aibhne!\"</p></div></div>",
     /*Hint1: formatted HTML, picture, ... */         "Faisg air corra-ghlas nach bidh ag iteig…",
     /*Hint2: formatted HTML, picture, ... */         "<img src='media/scavenger2/halfpenny_bridge.webp' class='img-fluid'></img>",
     /*Hint3: formatted HTML, picture, ... */         0,
@@ -207,7 +209,9 @@ const p2q5 = new Picture (
     /*where: name of place / hint 1 (short!)*/      "Uaireadair-grèine", 
     /*lat of point*/                                55.879099778195254, 
     /*lon of point */                               -4.289864635154586,
-    /*Information about point (HTML) */             "<p>Tha bonn a’ ghrian-cloiche seo na chlach-mhuillinn a bha air fhàgail as an t-seann mhuillean ann an North Woodside.</p>",
+    /*Information about point (HTML) */             "<p>Tha bonn a’ ghrian-cloiche seo na chlach-mhuillinn a bha air fhàgail as an t-seann mhuillean ann an North Woodside.</p>\
+    <div class='card bg-info'><div class='card-body'>\
+    <img src='media/pettirosso.png' class='img-fluid'><p>“’S math a rinn thu! “</p><p>Ann an àrc-eòlas, bidh sinn a’ faicinn gu math tric rudan a chaidh an cleachdadh a-rithist airson rudeigin ùr a thogail.</p></div></div>",
     /*Hint1: formatted HTML, picture, ... */         "<img src='media/scavenger2/sundial_easy.webp' class='img-fluid'></img>",
     /*Hint2: formatted HTML, picture, ... */         0,
     /*Hint3: formatted HTML, picture, ... */         0,
@@ -218,7 +222,9 @@ const p2q6 = new Picture (
     /*where: name of place / hint 1 (short!)*/      "Tuil-dhoras", 
     /*lat of point*/                                55.878333, 
     /*lon of point */                               -4.284167,
-    /*Information about point (HTML) */             "<p>Slighe le geata leis an gabh sruthadh an uisge a stad no a stiùireadh. Bha seo na phàirt den mhuillean.</p><p>Tuil-dhoras: sluice</p>",
+    /*Information about point (HTML) */             "<p>Slighe le geata leis an gabh sruthadh an uisge a stad no a stiùireadh. Bha seo na phàirt den mhuillean.</p><p>Tuil-dhoras: sluice</p>\
+    <div class='card bg-info'><div class='card-body'>\
+    <img src='media/pettirosso.png' class='img-fluid'><p>“Math fhèin!”</p></div></div>",
     /*Hint1: formatted HTML, picture, ... */         0,
     /*Hint2: formatted HTML, picture, ... */         0,
     /*Hint3: formatted HTML, picture, ... */         0,
@@ -240,7 +246,9 @@ const p2q8 = new Picture (
     /*where: name of place / hint 1 (short!)*/      "Drochaid Bhictorianach", 
     /*lat of point*/                                55.879722,
     /*lon of point */                               -4.288056,
-    /*Information about point (HTML) */             "<p>Drochaid-choise bho dheireadh an 19mh linn, a chaidh a thogail gus am biodh an Gàrradh Lùsan nas fhasa a ruigsinn bho Kelvinside.</p>",
+    /*Information about point (HTML) */             "<p>Drochaid-choise bho dheireadh an 19mh linn, a chaidh a thogail gus am biodh an Gàrradh Lùsan nas fhasa a ruigsinn bho Kelvinside.</p>\
+    <div class='card bg-info'><div class='card-body'>\
+    <img src='media/pettirosso.png' class='img-fluid'><p>\"Glè mhath, agus abair sealladh! ’S toil leam fois a ghabhail an seo nuair nach eil mi air an sgèith.\"</p></div></div>",
     /*Hint1: formatted HTML, picture, ... */         0,
     /*Hint2: formatted HTML, picture, ... */         0,
     /*Hint3: formatted HTML, picture, ... */         0,
@@ -280,6 +288,8 @@ const p2 = new PathScavenger (
     "<img src='media/headers/2.webp' class='img-fluid p-2'></img>\
     <p>An-diugh, ’s e àite breagha agus gu math sàmhach a th’ ann an abhainn Cheilbhinn, le slighe mòr-chòrdte airson coiseachd, ruith is rothaireachd feadh na h-aibhne. O chionn dìreach dà cheud bliadhna, ge-tà, bha coltas gu math eadar-dhealaichte air an sgìre seo. Gàrraidhean agus slìghean sàmhach, obair cruaidh gnìomhachais, ailtireachd spaideil agus am bàile a’ leudachadh far an robh achaidhean ann… abair cruth-tìr iomsgarach, a’ sìor-atharrachadh tro eachdraidh còmhla ri beatha daoine na sgìre.</p>\
     <p>Ghabhaibh cuairt còmhla rinn gus faighinn a-mach mu chuid de na bhiodh a’ dol air bruachan Cheilbhinn. Bidh sibh a’ lorg an àite far an deach gach dealbh a thogail, le beagan cuideachaidh bho àm gu àm…</p>\
+    <div class='card bg-info p-0 my-2'><div class='card-body p-2'>\
+    <img src='media/pettirosso.png' class='img-fluid'><p>“Halò! Is mise Bhrù-dhearg agus tha mi a’ fuireach ann an suicheantas Baile Ghlaschu còmhla ri mo charaidean: an t-Iasg, an Clag, agus a’ Chraobh. Bidh sinn gad cuideachadh agus gad bhrosnachadh bho àm gu àm…”</p></div></div>\
     <p>Ged nach eil slighe stèidhichte ann, faodaidh sibh tòiseachadh air a’ gheama aig prìomh gheata nam Botanics. Faodaidh sibh tòiseachadh air agus crìoch a chur air aig àm sam bith, gun a bhith a’ dèanamh an geama air fad san aon latha. Bidh an t-adhartas agaibh air a shabhaladh.<br />\
     Ma tha sibh deiseil is deònach, brùthaibh an seo airson cluich!</p>",
     new Array(p2q1,p2q2,p2q3,p2q4,p2q5,p2q6,p2q7,p2q8,/*p2q9,*/p2q10)

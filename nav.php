@@ -176,13 +176,13 @@
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
 
-    <script src="js/classes.js"></script>
-    <script src="js/distance.js"></script>
-    <script src="js/gamedata.js"></script>
-    <script src="js/gamelogic.js"></script>
-    <script src="js/geolocation.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/screen.js"></script>
+    <script src="js/classes.js?v=269322"></script>
+    <script src="js/distance.js?v=269322"></script>
+    <script src="js/gamedata.js?v=269322"></script>
+    <script src="js/gamelogic.js?v=269322"></script>
+    <script src="js/geolocation.js?v=269322"></script>
+    <script src="js/map.js?v=269322"></script>
+    <script src="js/screen.js?v=269322"></script>
 
     <script>
         let url_path = new URLSearchParams(window.location.search).get('path');
