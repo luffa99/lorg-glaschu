@@ -162,7 +162,7 @@ const p2q1 = new Picture (
     <div class='card bg-info'><div class='card-header'>\
     <img src='media/trowel128w.png' style='height:50px;width:50px;padding:2px;vertical-align:top'></div>\
     <div class='card-body'>\
-    Tha seann mhapaichean uabhasach feumail do àrc-eòlaichean. Ged a tha cladhach àrc-eòlais na phàirt chudromach den obair (agus gu deabh, ’s dòcha gur e sin am pàirt air a bhios sinn a’ smaoineachadh na bu trice nuair a chluinneas sinn am facal “àrc-eòlas”), tha dreuchdan eile ann air a bheil sinn feumach. Tha sgrùdadh air seann mhapaichean, sgìobhannan, agus aithsigean riatanach mus tòisichear air cladach.</div></div>",
+    Tha seann mhapaichean uabhasach feumail do àrc-eòlaichean. Ged a tha cladhach àrc-eòlais na phàirt chudromach den obair (agus gu deabh, ’s dòcha gur e sin am pàirt air a bhios sinn a’ smaoineachadh na bu trice nuair a chluinneas sinn am facal “àrc-eòlas”), tha dreuchdan eile ann air a bheil sinn feumach. Tha sgrùdadh air seann mhapaichean, sgìobhannan, agus aithsigean riatanach mus tòisichear air cladhach.</div></div>",
     /*Hint1: formatted HTML, picture, ... */         "<h3>Tobar nan trì craobh</h3><img src='media/scavenger2/map.webp' class='img-fluid'></img>",
     /*Hint2: formatted HTML, picture, ... */         0,
     /*Hint3: formatted HTML, picture, ... */         0,

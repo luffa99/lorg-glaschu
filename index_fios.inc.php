@@ -74,6 +74,10 @@ Meadhanan sòisealta:
 <br />
 <a href="https://www.instagram.com/lorg_glaschu/" class="fa fa-instagram" target="_blank"></a> @lorg_glaschu
 </p>
+<p>
+Buidheann Facebook:
+</p><p><a href="https://www.facebook.com/groups/277263594509719/"  class="underline" target="_blank">https://www.facebook.com/groups/277263594509719/</a>
+</p>
 <p>Foirm freagairt: 
 <br />
 <a href="https://forms.gle/zu9MRNEG8Qjc7Rhh9" class="fa fa-comments-o" target="_blank"  style="
