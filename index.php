@@ -84,55 +84,55 @@ $page_mapping = array("index_failte.inc.php","index_cluich.inc.php","index_goire
         // };
 
 
-        /* Service worker */
-        swURL = "service-worker.js?v=1.3";
-        // Register the service worker ---> DISABLED TODO
-        if ('serviceWorker' in navigator && false) {
-        // Wait for the 'load' event to not block other work
-        window.addEventListener('load', async () => {
-            // Try to register the service worker.
-            var registration;
-            try {
-                registration = await navigator.serviceWorker.register(swURL).then({
-                function(registration) {
-                    serviceWorkerRegistration.update();
-                }
-            });
-                console.log('Service worker registered! 😎', registration);
-            } catch (err) {
-                console.log('😥 Service worker registration failed: ', err);
-            }
+        // /* Service worker */
+        // swURL = "service-worker.js?v=1.3";
+        // // Register the service worker ---> DISABLED TODO
+        // if ('serviceWorker' in navigator && false) {
+        // // Wait for the 'load' event to not block other work
+        // window.addEventListener('load', async () => {
+        //     // Try to register the service worker.
+        //     var registration;
+        //     try {
+        //         registration = await navigator.serviceWorker.register(swURL).then({
+        //         function(registration) {
+        //             serviceWorkerRegistration.update();
+        //         }
+        //     });
+        //         console.log('Service worker registered! 😎', registration);
+        //     } catch (err) {
+        //         console.log('😥 Service worker registration failed: ', err);
+        //     }
 
-            // detect Service Worker update available and wait for it to become installed
-            registration.addEventListener('updatefound', () => {
-                if (registration.installing) {
-                    // wait until the new Service worker is actually installed (ready to take over)
-                    registration.installing.addEventListener('statechange', () => {
-                        if (registration.waiting) {
-                            // if there's an existing controller (previous Service Worker), show the prompt
-                            if (navigator.serviceWorker.controller) {
-                                self.skipWaiting();
-                            } else {
-                                // otherwise it's the first install, nothing to do
-                                console.log('Service Worker initialized for the first time')
-                            }
-                        }
-                    })
-                }
-            })
+        //     // detect Service Worker update available and wait for it to become installed
+        //     registration.addEventListener('updatefound', () => {
+        //         if (registration.installing) {
+        //             // wait until the new Service worker is actually installed (ready to take over)
+        //             registration.installing.addEventListener('statechange', () => {
+        //                 if (registration.waiting) {
+        //                     // if there's an existing controller (previous Service Worker), show the prompt
+        //                     if (navigator.serviceWorker.controller) {
+        //                         self.skipWaiting();
+        //                     } else {
+        //                         // otherwise it's the first install, nothing to do
+        //                         console.log('Service Worker initialized for the first time')
+        //                     }
+        //                 }
+        //             })
+        //         }
+        //     })
 
-            let refreshing = false;
+        //     let refreshing = false;
 
-            // detect controller change and refresh the page
-            navigator.serviceWorker.addEventListener('controllerchange', () => {
-                if (!refreshing) {
-                    window.location.reload()
-                    refreshing = true
-                }
-            })
+        //     // detect controller change and refresh the page
+        //     navigator.serviceWorker.addEventListener('controllerchange', () => {
+        //         if (!refreshing) {
+        //             window.location.reload()
+        //             refreshing = true
+        //         }
+        //     })
 
-            });
-        } 
+        //     });
+        // } 
     </script><script>
 
         // isInWebAppiOS = (window.navigator.standalone === true);
