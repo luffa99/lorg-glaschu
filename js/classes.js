@@ -79,7 +79,7 @@ class StateClassic extends State {
             this.score = s.score;
             if(s.question > 0 && actualState.end_time == 0) {
                 $("#pathName").text(paths[actualState.pathId].short);
-                $('#inst').html("Follow the hint");
+                $('#inst').html("Stiùireadh");
                 $('#hint').html(paths[actualState.pathId].questions[actualState.question-1].hint_nextstep);
                 actualState.target_lat = paths[actualState.pathId].questions[actualState.question].lat;
                 actualState.target_lon = paths[actualState.pathId].questions[actualState.question].lon;
@@ -284,7 +284,7 @@ class PathClassic extends Path {
         console.log("Distance from target: "+distanceFromTarget );
         if (actualState.distanceNotification && distanceFromTarget < gpsNotificationThreeshold) {
             this.targetMarker = L.marker([actualState.target_lat, actualState.target_lon], {icon: target}).addTo(this.mymap);
-            notification("Glè mhath","Tha thu faisg air an àite ceart a-nis…thig nas fhaisge gus fosgladh na ceist");
+            notification("Glè mhath","Tha thu faisg air an àite ceart a-nis…thig nas fhaisge gus a' cheist fhosgladh");
             actualState.distanceNotification = false;
             actualState.savestate();
         }
@@ -296,7 +296,7 @@ class PathClassic extends Path {
             var qhtml = "";
             if(q instanceof MultipleChoice) {
                 qhtml += "<p>"+q.question+"</p>";
-                if (q.answers.length > 1){
+                if (q.answers.length >= 1){
                     qhtml += "<div class='list-group' id='ans_list'>";
                     q.answers.forEach ((el,idx) => { 
                         let check = (idx==q.correctans) ? true : false;
@@ -333,7 +333,7 @@ class PathClassic extends Path {
             actualState.score += 10;
 
             if(paths[actualState.pathId].questions[actualState.question].final) {
-                $('#moveToNextAnsBtn').text("Finish game");
+                $('#moveToNextAnsBtn').text("Cuir chrioch air a' gheama");
             }
 
             $('#ans_list').children().fadeOut(500);
@@ -361,7 +361,7 @@ class PathClassic extends Path {
             $('#ans_list').children().fadeOut(500);
             $('#current_correctans').fadeIn(500);
             // Move to next question if is not the last!
-            $('#inst').text("Follow the hint");
+            $('#inst').text("Stiùireadh");
             $('#hint').html(paths[actualState.pathId].questions[actualState.question].hint_nextstep);
             $('#inst').fadeIn(500);
             $('#hint').fadeIn(500);
@@ -422,7 +422,7 @@ class PathClassic extends Path {
         actualState.target_lat = this.start_lat;
         actualState.target_lon = this.start_lon;
         $('#hint').text("");
-        $("#inst").text("Go to start");
+        $("#inst").text("Rach gu tòiseach na slighe");
         $("#pathName").text(this.short);
         this.targetMarker =  L.marker([actualState.target_lat, actualState.target_lon], {icon: target}).addTo(this.mymap);
         actualState.savestate();
