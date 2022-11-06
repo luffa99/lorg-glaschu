@@ -140,7 +140,7 @@ class StateScavenger extends State {
             this.found = s.found;
             console.log(s.found);
             this.found.forEach((el,_) => {
-                $("#pic-unlock-"+el).text("Read info");
+                $("#pic-unlock-"+el).text("Barrachd fiosrachaidh");
                 $("#pic-unlock-"+el).show();
                 $("#pic-hintb1-"+el).off();
                 $("#pic-hintb1-"+el).hide();
@@ -220,7 +220,7 @@ class Path {
             $('#end_title').text("Sin thu!");
             $('#end_text').text("Math fhèin!");
             var name = $('#player_name').val();
-            addTextToImage_300("https://dev1.rail-suisse.ch/treasure/media/winner_299.png", paths[actualState.pathId].short, date, name, actualState.score);
+            addTextToImage_300("https://lorg-glaschu.com/media/winner_299.png", paths[actualState.pathId].short, date, name, actualState.score);
             if (navigator.canShare) { $('#sharebtn').removeClass('hide');}
             $('#savebtn').removeClass('hide');
             $('#newbtn').removeClass('hide');
@@ -318,6 +318,7 @@ class PathClassic extends Path {
             $('#discoverMoreText').html(q.background);
             actualState.questionNotification = false;
             actualState.savestate();
+            popov();
         }
     }
 
@@ -346,6 +347,7 @@ class PathClassic extends Path {
                 $('#infoTitle').text("Barrachd fiosrachaidh");
                 $('#infoBody').html(paths[actualState.pathId].questions[actualState.question].extrainfo);
                 $('#extraInfo').show();
+                popov();
             }
         }
     }
@@ -373,6 +375,7 @@ class PathClassic extends Path {
             actualState.distanceNotification = true;
             actualState.questionNotification = true;
             actualState.savestate();
+            popov();
         } else {
             actualState.savestate();
             paths[actualState.pathId].endgame();
@@ -595,7 +598,7 @@ class PathScavenger extends Path {
                     actualState.found.push(index);
                     actualState.score += 12;
                     actualState.savestate();
-                    $("#pic-unlock-"+index).text("Read info");
+                    $("#pic-unlock-"+index).text("Barrachd fiosrachaidh");
                     $("#pic-hintb-"+index).off();
                     $("#pic-hintb-"+index).hide();
                     $("#pic-dist-"+index).hide();

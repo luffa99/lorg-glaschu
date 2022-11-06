@@ -60,14 +60,14 @@ function notification(title,msg) {
 }
 
 function openQuestion(title, msg) {
-    $('#questionTitle').text(title);
+    $('#questionTitle').html(title);
     $('#questionBody').html(msg);
     // $('#qwin').modal({
     //     keyboard: false,
     //     backdrop: false,
     //     focus: true
     // })
-
+    popov();
     $('#qwin').modal('show');
 }
 
@@ -205,3 +205,15 @@ function saveStats(){
     xhr.send("data="+JSON.stringify(actualState)+"&valuation="+$("#evaluation").val());
     $('#qwin').modal('hide');
 }
+
+// Initialize popovers
+function popov() {
+
+    $('.trans').popover({
+        placement : 'top',
+        trigger : 'hover'
+    });
+}
+$( document ).ready(function() {
+    popov();
+});
