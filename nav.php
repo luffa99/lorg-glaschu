@@ -35,12 +35,14 @@
   <link rel="apple-touch-icon" href="media/icon.png"> 
 
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
   <!-- LeafLet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  <!-- Removed bcs of Crossorigin policylink rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
+   crossorigin=""/-->
+  <link rel="stylesheet" href="libraries/leaflet.css">
 
     <style>
         #mapid { height: 400px;}
@@ -116,7 +118,7 @@
             <canvas id="canvas" width="299" height="350" class="m-3"></canvas>
             <p id="end_text" class="p-1"></p>
             <button id="savebtn" onclick='save()' class="btn btn-primary m-2 hide">Sàbhail</button>
-            <button id="sharebtn" onclick='share()' class="btn btn-success m-2 hide">Sgaoil (air na meadhanan sòisealta)</button><br />
+            <button id="sharebtn" onclick='share()' class="btn btn-success m-2 hide">Sgaoil air na meadhanan sòisealta</button><br />
             <button id="newbtn" onclick='newgame()' class="btn btn-warning m-2 mb-4 hide">Tòisich geama ùr</button>
         </div>
         <div id="picturescarcont" class="hide"></div>
@@ -172,13 +174,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-- LeafLet JS -->
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    <!--script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-            crossorigin=""></script>
+            crossorigin=""></script-->
+    <script src="libraries/leaflet.js"></script>
 
-    <script src="js/classes.js?v=269322"></script>
-    <script src="js/distance.js?v=269322"></script>
-    <script src="js/gamedata.js?v=269322"></script>
+    <script src="js/classes.js?v=289322"></script>
+    <script src="js/distance.js?v=289322"></script>
+    <script src="js/gamedata.js?v=289322"></script>
     <script src="js/gamelogic.js?v=269322"></script>
     <script src="js/geolocation.js?v=269322"></script>
     <script src="js/map.js?v=269322"></script>

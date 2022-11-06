@@ -119,6 +119,12 @@ body {
   font-weight: 700;
 }
 
+/* Underline popovers */
+.trans {
+  text-decoration-line: underline !important;
+  text-decoration-style: dotted !important;
+  text-underline-offset: 3px;
+}
 
 /*
  * Footer
@@ -128,7 +134,7 @@ body {
 }
 
 
-.arrow {
+span.arrow {
     display: inline-block;
     width: 15px;
     height: 15px;
