@@ -2,6 +2,13 @@
 <p>Ma tha sibh airson na slighean a leanntainn gun a bhith a’ cleadhadh fhòn-làimhe, seo goireasan agus stiùireadh ann an cruth PDF. 
 Tha mi ’n dòchas gum bi iad nas fhasa a chleadhadh còmhla ri buidheann cloinne, mar eisimpleir. 
 Cuiribh fios thugam ma tha ceist agaibh no ma tha rud sam bith as urrainn dhomh dèanamh airson ur cuideachadh!</p>
+<ul>
+    <li><a class="underline" href="media/pdf/Ceilbhinn_MAPA-1.pdf" target="_blank">Ceilbhinn_MAPA</a>: Dh'fhaodadh am mapa seo a bhith na chuideachadh agus e a' sealtainn dè na h-àitichean ar am bidh sibh a' tadhail (ach gun a bhith ag innse cò an dealbh a chaidh a thogail ann)</li>
+    <li><a class="underline" href="media/pdf/Clann_duilleagan.pdf" target="_blank">Clann_duilleagan</a>: beagan dealbhan agus fiosrachaidh don chlann as òige</li>
+    <li><a class="underline" href="media/pdf/Ceilbhinn_FiosrachadhTidseir.pdf" target="_blank">Fiosrachadh an Tidseir</a>: ma tha sibh airson Sealg Scavenger àbhaisteach a-ruith, gun a bhith air loidhne, seo fam am faigh sibh am fiosrachadh a tha ceangailte ri gach àite</li>
+    <li><a class="underline" href="media/pdf/Ceilbhinn_dealbhan.pdf" target="_blank">Ceilbhinn dealbhan</a>: ma tha sibh airson Sealg Scavenger àbhaisteach a-ruith, gun a bhith air loidhne, seo na dealbhan a dh'fheumas sibh lorg. Dh'fhaodadh am mapa a bhith cuideachail, cuideachd.</li>
+</ul>
+
 
 <h4>Reifreansan agus goireasan a bharrachd</h4>
 <p>

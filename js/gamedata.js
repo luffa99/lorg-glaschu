@@ -35,12 +35,12 @@ const p1q1 = new MultipleChoice(
     -4.258056,
     "",
     "<p>Smaoinich air a bhith nad sheasamh an seo o chionn mu 200 bliadhna. Dh’fheumadh tu gluasad a-mach às an rathad gu luath, oir cha robh e cho sàmhach ‘s a tha e san latha an-diugh!</p>\
-    <p>B’ àbhaist seo a bhith am measg nam prìomh phuirt ann an Glaschu, agus bha e cudromach airson gnìomhachais na sgìre, far an deach mòran fhactaraidhean a stèidheachadh.  Bha an Canàl eadar an Abhainn Chluaidh is Linne Fhoirthe deiseil aig deireadh an 18mh linn. An uair sin, dh’fhaodadh gràn, <a class='trans' data-content='wood, timber'>fiodh</a>, meatailt, siùcar agus an leithid a ghluasad gu h-èifeachdach bho thaobh an iar gu taobh an ear na h-Alba. Cha robh seo a’ ciallachadh <a class='trans' data-content='wealth'>beairteas</a> dhan a h-uile duine idir. Ged a bha feadhainn soirbheachail agus a’ cruinneachadh fortan, bha tòrr dhaoine eile ann an droch shuidheachadh-obrach anns na factaraidhean, agus daoine eile fhathast air an <a class='trans' data-content='slavery'>dubh-shaothrachadh</a> ann am planntachasan thall thairis.</p>\
-    <p>Fad ’s a tha thu a’ coiseachd ri taobh a’ chanàl, bidh thu...\
+    <p>B’ àbhaist seo a bhith am measg nam prìomh phuirt ann an Glaschu, agus bha e cudromach airson gnìomhachais na sgìre, far an deach mòran fhactaraidhean a stèidheachadh.  Bha an Canàl eadar an Abhainn Chluaidh is Linne Fhoirthe deiseil aig deireadh an 18mh linn. An uair sin, dh’fhaodadh gràn, fiodh, meatailt, siùcar agus an leithid a ghluasad gu h-èifeachdach bho thaobh an iar gu taobh an ear na h-Alba. Bha am baile a’ fàs mòr agus cudromach, agus ro mheadhan an 19mh linn, b’ e Glaschu an dàrna cathair-bhaile mòr na h-Ìmpireachd. Cha robh seo a’ ciallachadh beairteas dhan a h-uile duine idir - bha feadhainn sa bhaile soirbheachail agus a’ cruinneachadh fortan, ach bha tòrr dhaoine eile ann am bochdainn, ann an droch shuidheachadh-obrach anns na factaraidhean, agus daoine eile fhathast air an dubh-shaothrachadh ann am planntachasan thall thairis.</p>\
+    <p>Fad ’s a tha thu a’ coiseachd ri taobh a’ chanàil, bidh thu...\
     <ul>\
         <li>ag ionnsachadh barrachd mu eachdraidh an àite seo</li>\
         <li>a’ faicinn dè tha air fhàgail bho diofar amannan</li>\
-        <li>agus a’ freagairt cheistean gus an ath àite-stad a ruigsinn.</li>\
+        <li>agus a’ freagairt cheistean gus an ath àite-stad a ruigsinn</li>\
     </ul></p>\
     <p>Seo dhut a’ chiad cheist:</p>\
     <p>Cuin a chaidh an obair a chriochnachadh airson an canàl seo a thogail?</p>",
@@ -48,8 +48,12 @@ const p1q1 = new MultipleChoice(
     new Array("1768","1790","1970"),
     1,
     false,
-    "<div><ul class='p-2'>\
-    <li>Dealbh-cluiche air a dhèanamh mar phàirt de Fèisean nan Gaidheal, ag innse sgeulachd mu nighean à Guidheàna a chaidh a thoirt às an dùthaich aice fhèin le a h-athair, aig an robh planntachasan, a chaidh a’ fuireachd air an Eilean Dubh ann an 1816.\
+    "<div>\
+    <p>Chaidh an cànal a thogail aig deireadh an 18mh linn agus a cleachdadh tron 19mh gu ruige na 1960an. Bha Glaschu, agus gu dearbh an saoghal air fad, ag atharrachadh gu luath tro na linntean seo. Ma tha thu aig iarraidh barrachd fiosrachaidh fhaighinn mu bheatha ann an Glaschu agus nas fhaide air falbh aig an àm seo ann an eachdraidh, thoir sùil air na goireasan a leanas:</p>\
+    <ul class='p-2'>\
+    <li>Làrach-lìn mu eachdraidh nan Gàidheal agus na Gàidhlig ann an Glaschu. Am measg nan cuspairean a tha ann, gheibh thu fiosrachadh air eilthireachd, obair, cultar agus beatha sòisealta.<p><a href='https://glaschu.net/' class='underline' target='_blank'>https://glaschu.net/</a></p></li>\
+    \
+    <li>Dealbh-cluich air a dhèanamh mar phàirt de Fèisean nan Gaidheal, ag innse sgeulachd mu dheidhinn Eliza Junor, nighean à Guidheàna a chaidh a thoirt às an dùthaich aice fhèin le a h-athair, aig an robh planntachasan, agus a chaidh a’ fuireach air an Eilean Dubh ann an 1816.\
     <p><a href='https://vimeo.com/466829060/9f747e6da4?embedded=true&source=video_title&owner=8699768' class='underline' target='_blank'>https://vimeo.com/46682906...</a></p></li>\
     \
     <li>Barrachd goireasan air:<p><a href='https://www.feisean.org/proiseactan/meanbh-chuileag-theatar-oideachaidh/  ' class='underline' target='_blank'>https://www.feisean.org/proiseactan...</a></p></li>\
@@ -88,7 +92,8 @@ const p1q3 = new MultipleChoice(
     "",
     "<p>Seall, cò ris a bha Glaschu coltach o chionn mòran bhliadhnaichean. Abair atharrachadh!<br />\
     Bhuin na ballachan faisg oirt ri <a class='trans' data-content='cottage, shed, bothy'>bothain</a>. Tha uinneagan agus dorsan fhathast ri fhaicinn!<img src='media/canalan/bothan.jpg' class='img-fluid p-2'></img></p>\
-    ‘S dòcha nach bidh thu gam chreidsinn, ach chaidh dealbhan a pheantadh agus a thogail de mo shinnsearan dìreach fair a bheil thu an-dràsta! Ach…chaidh iad air a mheasgachadh, òbh òbh! An cuidicheadh thu gan cur ann an òrdugh, a’ tòiseachadh leis an dealbh as sìne? Bidh na mapaichean feumail...<img src='media/canalan/Iasg_dealbhan.png' class='p-2 img-fluid'></img>",
+    ’S dòcha nach bidh thu gam chreidsinn, ach chaidh dealbhan a pheantadh agus a thogail de mo shinnsearan dìreach fair a bheil thu an-dràsta! [3 dealbhan] Ach...chaidh iad air a mheasgachadh, òbh òbh! An cuidicheadh thu gan cur ann an òrdugh, a’ tòiseachadh leis an dealbh as sìne? Bidh na mapaichean feumail...\
+    <img src='media/canalan/Iasg_dealbhan.png' class='p-2 img-fluid'></img>",
     "‘S math a rinn thu! Ged a tha a’ mhòr chuid de na seann  uinneagan agus dorsan duinte/blocked off a-nis, tha tè ann a tha fhathast fosgailte. B’ àbhaist taigh-seinnse a bhith ann. Lorg e! <a href='https://canmore.org.uk/site/217782/glasgow-bairds-brae-houses' class='underline' target='_blank'>Barrachd fiosrachaidh</a>",
     new Array ("132","123","231"),
     2,

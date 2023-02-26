@@ -477,6 +477,7 @@ class PathScavenger extends Path {
     }
 
     gpsGameLogic(lat,lon) {
+        var gpsUnlockThreeshold = 16; /*In meters*/
         let d = distance( this.pictures[this.currentslide].lat, 
                           this.pictures[this.currentslide].lon, 
                           lat,
@@ -485,7 +486,7 @@ class PathScavenger extends Path {
         // if (d < 500) {
         $('#pic-dist-'+this.currentslide).html(Math.round(d) + " m");
         // }
-        if (d<15){
+        if (d<gpsUnlockThreeshold){ /*In meters*/
             $("#pic-unlock-"+this.currentslide).fadeIn(1000);
         } else {
             if(!actualState.found.includes(this.currentslide)) {
@@ -526,7 +527,7 @@ class PathScavenger extends Path {
                                 <span id='pic-found-"+index+"' class='btn btn-success mx-auto hide'><img src='media/check.png' style='height:25px;width:30px;padding:2px;vertical-align:bottom' /></span>\
                             </div>\
                             <div class='carousel-caption'>\
-                                <button id='pic-unlock-"+index+"' type='button' class='btn btn-success mx-auto mb-3 hide'>Unlock</button>\
+                                <button id='pic-unlock-"+index+"' type='button' class='btn btn-success mx-auto mb-3 hide'>Fosgail</button>\
                                 "+hints+"\
                             </div>\
                         </div>";
